@@ -1,0 +1,119 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/***************Chat app*/
+/******* NavLogo Brand ***********************/
+.container-nav{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.container-nav>h3{
+    border: 2px solid rgb(255, 0, 0);
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    color: red;
+    background: #daffff;;
+}
+img{
+    width:10%;
+}
+/*********** Container-message*********************/
+.container-message{
+    border: 2px solid red;
+    border-radius: 10px;
+    width: 80%;
+    height: 70vh;
+    background: rgb(223, 255, 225);
+    margin: auto;
+    padding: 10px;
+    overflow-y: auto;
+
+    }
+    .center{
+        margin: auto;
+        border: 2px solid rgb(0, 5, 1);
+        text-align: center;
+        padding: 8px;
+        width: 20%;
+        border-radius: 5px;
+        background: #00ffe7;
+        color:#450cf5;
+        cursor: pointer;
+        }
+    
+.message{
+    margin:10px ;
+    border: 2px solid red;
+    padding: 5px;
+    border-radius: 3px;
+   
+    
+}
+.right{
+    border: 2px solid rgb(15, 3, 3);
+    color:  red;
+    background: rgb(255, 255, 255);
+    float: right;
+    clear: both;
+}
+.left{
+    border: 2px solid rgb(255, 33, 33);
+    color:  rgb(0, 0, 0);
+    background: rgb(255, 255, 255);
+    float: left;
+    clear: both;
+}
+/**************Send Box********************/
+.send{
+  margin: 10px;
+}
+#send-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+input{
+   width: 50%;
+   font-size: 20px;
+   padding: 3px;
+   border: 2px solid red;
+   border-radius: 5px ;
+}
+input:focus::placeholder{
+    color: transparent;
+   
+    
+  }
+  input:focus{
+    border: 2px solid blue;
+  }
+
+  input::placeholder{
+    color:rgb(45, 0, 248);
+    font-size: 18px;
+    transition: color 0.3s ease;
+
+  }
+.btn{
+    border: 2px solid rgb(1, 26, 251);
+    background: rgb(176, 255, 255);
+    padding: 3px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 10px;
+    width: 8%;
+    color: blue;
+}
+.btn:hover{
+    border:2px solid rgb(241, 237, 0);
+    background: rgb(86, 104, 102);
+    color: rgb(255, 255, 255);
+}
